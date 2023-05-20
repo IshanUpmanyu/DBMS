@@ -35,3 +35,20 @@ create table student_batches (
 
 -- 5 min break, we will start again at 8:15 AM
 
+
+-- INSERT QUERY
+
+
+-- INSERT A CUSTOMER
+
+insert into sql_store.customers
+values
+(13, 'Ishan', 'Upamanyu', '1992-06-06', '79779798999', 'Pandol Road', 'Baijnath', 'HP', 100);
+
+insert into sql_store.customers(customer_id, first_name, points, last_name, state, city, address, phone, birth_date)
+values 
+(14, 'Nameera', 300, 'Sadiq', 'KA', 'Bengaluru', 'HSR Layout', '1232131223', '1993-01-01' );
+
+
+
+
