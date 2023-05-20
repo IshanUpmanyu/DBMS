@@ -51,4 +51,16 @@ values
 
 
 
+insert into sql_store.customers(first_name, points, last_name, state, city, address, phone, birth_date)
+values 
+('Abhirup', 350, 'Roy', 'KA', 'Bengaluru', 'HSR Layout', '1232131223', '1991-01-01' );
+
+insert into sql_store.customers(customer_id, first_name, points, last_name, state, city, address, phone, birth_date)
+values 
+(default, 'Shweta', 400, 'P', 'KA', 'Bengaluru', 'HSR Layout', '1232131223', '1993-01-05' );
+
+-- We don't have to enter all columns. 
+insert into sql_store.customers(first_name, last_name, state, city, address, birth_date)
+values 
+('Nishant', 'Upamanyu', 'KA', 'Bengaluru', 'HSR Layout', '1999-01-05' );
 
