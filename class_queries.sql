@@ -64,3 +64,18 @@ insert into sql_store.customers(first_name, last_name, state, city, address, bir
 values 
 ('Nishant', 'Upamanyu', 'KA', 'Bengaluru', 'HSR Layout', '1999-01-05' );
 
+
+-- UPDATE QUERY
+
+update sql_store.customers
+set
+phone = '1232344555'
+where customer_id = 12;
+
+
+update sql_store.customers
+set
+phone = '1232344555',
+points = 450
+where customer_id = 18;
+
