@@ -79,3 +79,32 @@ phone = '1232344555',
 points = 450
 where customer_id = 18;
 
+
+-- Delete command
+
+
+delete from sql_store.customers
+where 
+customer_id = 18;
+
+
+-- SELECT
+
+select customer_id, first_name, last_name
+from sql_store.customers
+where last_name = 'Upamanyu';
+
+-- only select is compulsary
+
+select now();
+select 1;
+
+
+-- Assume columns are like values, and you can perform some operations
+
+select customer_id, first_name, points, points + 10 as increased_points
+from sql_store.customers;
+
+
+
+
