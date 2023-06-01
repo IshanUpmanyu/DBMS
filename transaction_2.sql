@@ -1,6 +1,6 @@
 show variables like 'transaction_isolation';
 
-set session transaction isolation level read uncommitted;
+set session transaction isolation level serializable;
 
 start transaction;
 
